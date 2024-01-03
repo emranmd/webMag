@@ -1,0 +1,190 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+html{
+    padding: 0;
+    margin: 0;
+    overflow-x: hidden;
+}
+/*-- postDesignSection start --*/
+
+.postDesignSection {
+    padding-top: 40px;
+}
+.postDesignSection .postBannerBox img {
+    width: 100%;
+    object-fit: cover;
+}
+.postDesignSection .postBannerBox {
+    position: relative;
+    overflow: hidden;
+    z-index: 9;
+    margin-bottom: 40px;
+}
+.postBannerBox .postBodyContent {
+    position: absolute;
+    bottom: 0;
+    padding: 25px 20px;
+}
+.post_meta .first_categoryStyle {
+    font-size: 13px;
+    text-transform: uppercase;
+    padding: 3px 10px;
+    font-weight: 600;
+    border-radius: 2px;
+    margin-right: 15px;
+    color: #FFF;
+    background-color: #ff8700;
+    transition: 0.2s;
+    text-decoration: none;
+}
+.post_meta .first_categoryStyle:hover {
+    background-color: #e87e07;
+    color: #e8e1e1;
+}
+.post_meta .post_date {
+    color: white;
+    font-size: 13px;
+    font-weight: 600;
+}
+.postBodyContent .post_title {
+    margin-top: 10px;
+}
+.postBodyContent .post_title a {
+    color: white;
+    font-weight: 600;
+    font-size: 22px;
+    text-decoration: none;
+    transition: .2s;
+    line-height: 18px;
+}
+.postBodyContent .post_title a:hover{
+    text-decoration: underline;
+}
+.post_meta .second_categoryStyle {
+    font-size: 13px;
+    text-transform: uppercase;
+    padding: 3px 10px;
+    font-weight: 600;
+    border-radius: 2px;
+    margin-right: 15px;
+    color: #FFF;
+    background-color: #8d00ff;
+    transition: 0.2s;
+    text-decoration: none;
+}
+.post_meta .second_categoryStyle:hover {
+    background-color: #8d00ff;
+    color: #e8e1e1;
+}
+
+/*-- postDesignSection end --*/
+
+/*-- recent_postsSection start --*/
+
+.recent_postsArea .recentPostImage img {
+    width: 100%;
+    object-fit: cover;
+}
+.recent_postsSection .postsTitle h2 {
+    margin: 0;
+    font-size: 30px;
+}
+.recent_postsSection .postsTitle {
+    padding-bottom: 35px;
+}
+.recentPost_footer .post_meta .post_1 {
+    background: #4BB92F;
+}
+.recentPost_footer .post_meta .post_2 {
+    background: #ff8700;
+}
+.recentPost_footer .post_meta .post_3 {
+    background: #8d00ff;
+}
+.recentPost_footer .post_meta .post_4 {
+    background: #0078ff;
+}
+.recent_postsSection .recent_postsArea {
+    padding-bottom: 40px;
+}
+.recentPost_footer .post_meta .post_category {
+    font-size: 13px;
+    text-transform: uppercase;
+    padding: 3px 10px;
+    font-weight: 600;
+    border-radius: 2px;
+    margin-right: 15px;
+    color: #FFF;
+    transition: 0.2s;
+    text-decoration: none;
+}
+.recentPost_footer .post_date {
+    font-size: 13px;
+    font-weight: 400;
+    color: #656262;
+}
+.recentPost_footer .post_meta{
+    padding: 10px 0;
+}
+.recent_postsArea .recentPost_title a {
+    font-weight: 600;
+    color: #212631;
+    text-decoration: none;
+    font-size: 18px;
+    transition: .2s ease;
+}
+.recent_postsArea .recentPost_title a:hover{
+    text-decoration: underline;
+}
+
+/*-- recent_postsSection end --*/
+
+/*-- mostReadSection start --*/
+
+.mostRead_postArea .mostReadTitle h2 {
+    margin: 0;
+    font-size: 28px;
+}
+.mostRead_postArea .mostReadTitle {
+    padding-bottom: 40px;
+}
+.mostRead_postArea .most_postBox {
+    display: flex;
+    gap: 20px;
+    margin-bottom: 30px;
+}
+.most_postBox .postImage img {
+    width: 90px;
+    object-fit: cover;
+}
+.mostRead_postArea .post_content a {
+    font-size: 17px;
+    color: #212631;
+    font-weight: 700;
+    text-decoration: none;
+}
+.mostRead_postArea .post_content a:hover{
+    text-decoration: underline;
+}
+.featureBannerImg {
+    position: relative;
+    margin-bottom: 40px;
+}
+.featureBannerImg img {
+    width: 100%;
+    object-fit: cover;
+}
+.featureTitle h2 {
+    margin: 0;
+    font-size: 28px;
+}
+
+.featureTitle {
+    padding-bottom: 30px;
+}
+
+
+/*-- mostReadSection end --*/
